@@ -1,0 +1,24 @@
+<button type="button" class="btn btn-success">Certificado</button>
+
+<script>alert('Você foi reprovado, mas não desista, tente novamente.')</script>
+
+if ($media>32 && $falta<13) {
+	echo "<script>alert('Parabêns!!!Você foi aprovado, clique no botão para gerar seu certificado.')</script>";
+	
+}else{
+	echo "<script>alert('Você foi reprovado, mas não desista, tente novamente.')</script>";
+}
+?>
+
+if ($nota1+$nota2+$nota3+$nota4>32 && $falta<13) {
+	echo "alert('Parabêns!!!Você foi aprovado, clique no botão para gerar seu certificado.');"
+	<button type="button" class="btn btn-success">Certificado</button>
+}else{
+	echo "alert('Você foi reprovado, mas não desista, tente novamente.');"
+}
+
+	$nota1 = $_POST['nota1'];
+	$nota2 = $_POST['nota2'];
+	$nota3 = $_POST['nota3'];
+	$nota4 = $_POST['nota4'];
+	$falta = $_POST['Faltas'];
